@@ -51,7 +51,6 @@ int main() {
     setlocale(LC_ALL, "Russian");
     srand(time(0));
 
-    
     Kamaz kamaz("Мастер", rand() % 100 + 100); // Скорость от 100 до 200 км/ч
     Tatra tatra("Phoenix", rand() % 80 + 80); // Скорость от 80 до 160 км/ч
 

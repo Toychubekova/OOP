@@ -14,7 +14,7 @@ private:
 public:
     Kamaz(const string& name, double speed) : name(name), speed(speed) {}
 
-    friend int FrCreater(const Kamaz& kamaz, const Tatra& tatra);
+    /*friend int FrCreater(const Kamaz& kamaz, const Tatra& tatra);*/
 
     void display() const {
         cout << "Камаз " << name << ", скорость: " << speed << " км/ч" << endl;
